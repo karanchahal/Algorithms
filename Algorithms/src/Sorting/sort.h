@@ -7,9 +7,9 @@ class Sort
 {
 
 	public:
-		void mergeSort(std::vector<int> &array,int start,int end);
+		int mergeSort(std::vector<int> &array,int start,int end);
 		void InsertionSort();
 	private:
-		void merge(std::vector<int> &array, int start1, int end1, int start2, int end2);
+		int merge(std::vector<int> &array, int start1, int end1, int start2, int end2);
 
 };

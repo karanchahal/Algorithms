@@ -1,30 +1,27 @@
 #include "sort.h"
 
-void Sort::mergeSort(vector<int> &array, int start, int end)
+int Sort::mergeSort(vector<int> &array, int start, int end)
 {
-	if (start - end <= 1)
+	if (start == end)
 	{
-		if (array[start] > array[end])
-		{
-			int temp = array[start];
-			array[start] = array[end];
-			array[end] = temp;
-		}
-		return;
+		return 0;
 	}
 
 
 	int temp = (start + end) / 2;
 
-	mergeSort(array, start, temp);
-	mergeSort(array, temp + 1, end);
-	merge(array, start, temp, temp + 1, end);
+	int one = mergeSort(array, start, temp);
+	int two = mergeSort(array, temp + 1, end);
+	int three = merge(array, start, temp, temp + 1, end);
+
+	return one + two + three;
 
 }
 
-void Sort::merge(vector<int> &array, int start1, int end1, int start2, int end2)
+int Sort::merge(vector<int> &array, int start1, int end1, int start2, int end2)
 {
 	vector<int> C;
+	int count = 0;
 	int start = start1;
 	int end = end2;
 
@@ -39,6 +36,7 @@ void Sort::merge(vector<int> &array, int start1, int end1, int start2, int end2)
 		else
 		{
 			C.push_back(array[start2]);
+			count += end1 - start1 + 1;
 			start2++;
 		}
 	}
@@ -63,6 +61,8 @@ void Sort::merge(vector<int> &array, int start1, int end1, int start2, int end2)
 		j++;
 	}
 
+
+	return count;
 }
 
 
