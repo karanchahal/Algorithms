@@ -21,9 +21,15 @@
     <ClCompile Include="src\Sorting\sort.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\Math\matrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Sorting\sort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\matrix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
