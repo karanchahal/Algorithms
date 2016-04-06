@@ -1,5 +1,9 @@
-﻿  sort.cpp
-  main.cpp
-  Generating Code...
-  Algorithms.vcxproj -> C:\Users\Lenovo\Documents\Algorithms\Debug\Algorithms.exe
-  Algorithms.vcxproj -> C:\Users\Lenovo\Documents\Algorithms\Debug\Algorithms.pdb (Partial PDB)
+﻿  Algorithms.cpp
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(243): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(283): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(349): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(393): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(406): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(408): warning C4018: '<': signed/unsigned mismatch
+c:\users\lenovo\documents\visual studio 2015\projects\algorithms\algorithms\algorithms.cpp(417): warning C4018: '<': signed/unsigned mismatch
+  Algorithms.vcxproj -> C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\Algorithms\Debug\Algorithms.exe
